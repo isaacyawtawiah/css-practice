@@ -1,0 +1,59 @@
+body {
+    background-color: rgb(227, 237, 253);
+    font-family: Helvetica, sans-serif;
+    line-height: 1.2;
+    font-size: .9rem;
+}
+
+h1 {
+    font-weight: 400;
+}
+
+a {
+    text-decoration: none;
+    color: rgb(52, 146, 255);
+}
+
+.container {
+    max-width: 650px;
+    margin: 0 auto;
+}
+
+.container-box {
+    background-color: rgb(255, 255, 255);
+    border-radius: 10px;
+    padding: 1em;
+    margin-top: 15px;
+}
+
+.container-box.first {
+    border-top: 10px solid rgb(66, 133, 244);
+}
+
+.harsh {
+    color: crimson;
+}
+
+.harsh::before {
+    content: '*';
+}
+
+input[type="text"],
+input[type="tel"],
+input[type="email"] {
+    display: block;
+    border: none;
+    margin-top: 30px;
+    border-bottom: 1px solid gray;
+    width: 50%;
+    outline: none;
+    padding: .4em 0;
+}
+
+label[for=email]::after,
+label[for=fullname]::after,
+label[for=phone-number]::after,
+.fees::after {
+    content: "*";
+    color: crimson;
+}

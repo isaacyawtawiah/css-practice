@@ -1,0 +1,36 @@
+.container {
+    max-width: 1200px;
+    margin: 0 auto;
+}
+
+.header,
+.hero,
+.card,
+.footer {
+    background-color: rgb(121, 115, 115);
+}
+
+.header {
+    height: 60px;
+}
+
+.hero {
+    height: 300px;
+    margin-top: 40px;
+}
+
+.cards {
+    display: flex;
+    justify-content: space-between;
+}
+
+.card {
+    height: 250px;
+    width: 350px;
+    margin-top: 40px;
+}
+
+.footer {
+    height: 60px;
+    margin-top: 40px;
+}
